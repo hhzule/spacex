@@ -1,0 +1,22 @@
+.launchinfo {
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.337);
+  box-shadow: 0px 0px 30px -10px #b6b6b6;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  flex: 2;
+  border: 3px solid grey;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.info {
+  border-bottom: 3px solid grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}

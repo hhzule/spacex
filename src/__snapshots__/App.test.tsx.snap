@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<div
+  className="App"
+>
+  <Header />
+  <br />
+  <div
+    className="main"
+  >
+    <div
+      className="launch"
+    >
+      <LaunchContainer />
+    </div>
+    <div
+      className="launchInfo"
+    >
+      <LaunchInfoContainer />
+    </div>
+  </div>
+</div>
+`;

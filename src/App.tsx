@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Launch from "./components/Launch";
+import LaunchInfo from "./components/LaunchInfo";
+import Header from "./components/Display/Header";
+import "./App.css";
+// import Slider from "./components/Slider/Slider";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Slider /> */}
+      <Header />
+      <br />
+      <div className="main">
+        <div className="launch">
+          <Launch />
+        </div>
+        <div className="launchInfo">
+          <LaunchInfo />
+        </div>
+      </div>
     </div>
   );
 }

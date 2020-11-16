@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the main div 1`] = `
+<div>
+  <div
+    className="red"
+  >
+    <div
+      className="wrapper"
+    >
+      <p>
+         
+        star
+        <span />
+        2020
+      </p>
+      <div
+        className="learn"
+      >
+        <p>
+          Success
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
