@@ -1,13 +1,16 @@
 language: node_js
 node_js:
-  - 'stable'
+  - "stable"
 
-  script:
-    - npm install
-    - npm run test
-    - npm run build
+cache:
+  dependencies: node_modules
 
-deploy: 
+script:
+  - npm install
+  - npm run test
+  - npm run build
+
+deploy:
   provider: surge
   skip_cleanup: true
   domain: uttermost-minute.surge.sh
