@@ -27,6 +27,7 @@ const LaunchInfo: React.FC<Props> = ({ data }) => {
               <p>{item?.details}</p>
             </div>
           );
+        return null;
       })}
     </div>
   );
